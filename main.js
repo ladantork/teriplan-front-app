@@ -11,7 +11,7 @@ function createWindow() {
     }
   });
 
-  win.loadFile('dist/teriplan-front-app/index.html');
+  win.loadFile('dist/teriplan-front-app/browser/index.html');
 
   win.on('closed', () => {
     win = null;
